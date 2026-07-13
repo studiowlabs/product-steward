@@ -13,7 +13,7 @@
 
 ## Fragile links
 
-- **[step]** — [what can break: unowned step, third-party failure, forgotten config, single point of failure]. Hardening candidate: [edge-cases pass / story / roadmap item].
+- **[step]**: [what can break: unowned step, third-party failure, forgotten config, single point of failure]. Hardening candidate: [edge-cases pass / story / roadmap item].
 - [...]
 
 ## Handoffs

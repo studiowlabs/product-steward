@@ -30,15 +30,15 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 
 ### The `ih-product-steward` skills
 
-- **`steward-the-product`** — the prime directive and entry point. Reads what the product is and who it serves, sets the precedence order for product decisions (the customer's real experience always wins), draws the boundary with designer, and routes to the right skill. Encodes how webs works: plans of intent before the code, a dated backlog, and the repo as the memory. **Start here.**
-- **`personas`** — build and maintain the small set of real people the product is for, with their jobs to be done, what they need to trust and do, and what would make them feel behind. Never a stock "Sarah Chen."
-- **`product-pillars`** — name the few enduring commitments the product stands for, so every feature has something concrete to be tested against.
-- **`user-journeys`** — map the customer's path over time, the moments that matter, the emotional arc, and where the experience breaks or drops them.
-- **`service-blueprint`** — map the system behind the experience: front stage, back stage, and the support that has to exist for the experience to hold.
-- **`bdd-stories`** — turn decided work into buildable Given, When, Then user stories with acceptance criteria, each tied to a persona and a journey moment.
-- **`roadmap`** — build and keep a living now, next, later roadmap organized around customer outcomes, not a dated Gantt chart nobody believes.
-- **`value-increments`** — slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
-- **`edge-cases`** — surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
+- **`steward-the-product`**: the prime directive and entry point. Reads what the product is and who it serves, sets the precedence order for product decisions (the customer's real experience always wins), draws the boundary with designer, and routes to the right skill. Encodes how webs works: plans of intent before the code, a dated backlog, and the repo as the memory. **Start here.**
+- **`personas`**: build and maintain the small set of real people the product is for, with their jobs to be done, what they need to trust and do, and what would make them feel behind. Never a stock "Sarah Chen."
+- **`product-pillars`**: name the few enduring commitments the product stands for, so every feature has something concrete to be tested against.
+- **`user-journeys`**: map the customer's path over time, the moments that matter, the emotional arc, and where the experience breaks or drops them.
+- **`service-blueprint`**: map the system behind the experience: front stage, back stage, and the support that has to exist for the experience to hold.
+- **`bdd-stories`**: turn decided work into buildable Given, When, Then user stories with acceptance criteria, each tied to a persona and a journey moment.
+- **`roadmap`**: build and keep a living now, next, later roadmap organized around customer outcomes, not a dated Gantt chart nobody believes.
+- **`value-increments`**: slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
+- **`edge-cases`**: surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
 
 > **product-steward has no roadmap of its own.** You point it at a product, say a repo called `tide`, and its job is to read `tide`, help shape `tide`'s product decisions, and write the personas, stories, and roadmap into **`tide`'s repository**. Two products the steward touches should end up with their own product thinking, not copies of each other's.
 

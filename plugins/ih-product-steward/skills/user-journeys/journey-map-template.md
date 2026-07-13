@@ -16,11 +16,11 @@ A one-line summary of how the emotional line moves across the stages, and where 
 
 ## Moments that matter
 
-- **[stage]** — the first time the customer feels [the product's promise]. Protect this one.
+- **[stage]**: the first time the customer feels [the product's promise]. Protect this one.
 
 ## Drop points and gaps
 
-- **[stage]** — [where they stall, get confused, or leave], because [the gap between what the product did and what they needed]. Candidate increment: [one line].
+- **[stage]**: [where they stall, get confused, or leave], because [the gap between what the product did and what they needed]. Candidate increment: [one line].
 - [...]
 
 ## Handoffs

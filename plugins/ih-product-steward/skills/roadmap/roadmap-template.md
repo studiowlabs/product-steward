@@ -24,7 +24,7 @@ Shaped enough to know the outcome and roughly the size. Not yet dated.
 
 Directions the product intends to go, held as outcomes without size or date.
 
-- [outcome] — serves [persona], advances [pillar].
+- [outcome]: serves [persona], advances [pillar].
 - [...]
 
 ---

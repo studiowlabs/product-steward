@@ -1,4 +1,4 @@
-# [increment name] — plan of intent
+# [increment name]: plan of intent
 
 > Written before the code, so the build has a clear aim and the next session can
 > see the whole shape. Persona: [name]. Date: [date].
