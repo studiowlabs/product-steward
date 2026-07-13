@@ -47,7 +47,7 @@ Not every flow needs a blueprint. Build one when the experience depends on more 
 - `user-journeys` is the front-stage companion this sits beneath.
 - `edge-cases` works the fragile links this surfaces.
 - `bdd-stories` and `roadmap` carry the hardening work.
-- designer consumes the blueprint to design honest loading, empty, and error states.
+- designer consumes the blueprint to design truthful loading, empty, and error states.
 
 ## The one rule
 The line of visibility is the point. If the blueprint only documents what the customer already sees, it has not done its job. The value is in what sits just below that line and can break without the interface ever showing why.

@@ -1,6 +1,6 @@
 ---
 name: roadmap
-description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when webs needs to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays honest. Confirm the product read, pillars, and increments first.
+description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when webs needs to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays accurate. Confirm the product read, pillars, and increments first.
 ---
 
 # Roadmap
@@ -15,10 +15,10 @@ The roadmap is the product's, organized around its `personas` and `product-pilla
 The rows of a roadmap are customer outcomes and the value increments that produce them, not a list of components. "The customer can see her number move the day she logs work" is a roadmap item. "Build the API" is not; it is a task hiding inside one. Draw each item from `value-increments`, so every row already names the delight it delivers.
 
 ### 2. Use now, next, later, and mean it
-Sort the work into three honest horizons instead of false-precision dates across a year:
+Sort the work into three truthful horizons instead of false-precision dates across a year:
 - **Now.** In progress or committed next, with a capacity-based delivery forecast attached (see `value-increments`). This is where dates are real, because the work is understood.
 - **Next.** Shaped enough to know the outcome and roughly the size, not yet dated. These are the increments waiting for a slot.
-- **Later.** Directions the product intends to go, held as outcomes without size or date. Honest about being uncertain.
+- **Later.** Directions the product intends to go, held as outcomes without size or date. Candid about being uncertain.
 
 Confidence drops as you move right, and the roadmap should show that instead of hiding it behind a tidy Gantt chart. A "later" item with a hard date is a lie the product will have to walk back.
 
@@ -28,7 +28,7 @@ For each roadmap item, name the `product-pillar` it advances and the `persona` i
 ### 4. Sequence by the precedence order
 When ordering items, use the precedence from `steward-the-product`: the customer's real experience first, then the pillars, then value delivered per increment, then effort and dependencies. Effort and dependencies order the work; they never promote work the customer will not feel over work she will. Cheap and pointless loses to valuable and harder.
 
-### 5. Keep it living, and keep dates honest
+### 5. Keep it living, and keep dates accurate
 - Write the roadmap into the product's `docs/` as a `roadmap.md` the team and future sessions read and update. The repo is the memory.
 - Revisit it when an increment ships or reality shifts. A roadmap that is not updated after a release is already wrong.
 - Dates stay capacity-based forecasts with their assumptions attached, only on "now" items. Never let a roadmap manufacture crunch by committing to dates the far-out work has not earned.
@@ -44,4 +44,4 @@ The roadmap sequences customer outcomes and the increments that deliver them. It
 - `backlog.md` holds what the roadmap deliberately leaves out.
 
 ## The one rule
-A roadmap is a set of choices about customer outcomes, not a schedule of tasks. If every item is a feature and every item has a hard date, it is a plan that will be wrong by next week. Organize by outcome, be honest about confidence, and keep dates only where the work has earned them.
+A roadmap is a set of choices about customer outcomes, not a schedule of tasks. If every item is a feature and every item has a hard date, it is a plan that will be wrong by next week. Organize by outcome, be candid about confidence, and keep dates only where the work has earned them.

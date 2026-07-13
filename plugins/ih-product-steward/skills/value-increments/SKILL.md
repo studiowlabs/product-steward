@@ -30,13 +30,13 @@ Draw the `bdd-stories` that make up the increment, each with its persona, its "s
 
 ### 4. Set a capacity-based, sustainable date
 A delivery date is a forecast built from real capacity, not a commitment that manufactures crunch. This is where the steward honors webs's thesis (more money, fewer hours, more life) instead of fighting it:
-- **Estimate the work in whole increments,** not hours of heroics. Size each story, sum the increment, and be honest about the unknowns.
+- **Estimate the work in whole increments,** not hours of heroics. Size each story, sum the increment, and be candid about the unknowns.
 - **Divide by real, sustainable capacity,** the hours webs actually has for this product in a normal week alongside everything else she runs, not a fantasy full-time week. webs's founder-rhythm sense of enough is the input here: the date has to fit inside a week she can repeat without grinding.
-- **State the date as a range with its assumption:** *"Landing around [date], assuming [capacity] and no surprise from [the biggest unknown]."* A date is a promise to the customer about when, and an honest one has its assumption attached.
+- **State the date as a range with its assumption:** *"Landing around [date], assuming [capacity] and no surprise from [the biggest unknown]."* A date is a promise to the customer about when, and a truthful one has its assumption attached.
 - **A slip is information, not a failure.** If reality diverges, move the date and say why in the repo. Do not absorb the slip by working the weekend. The win is hitting the number in fewer hours, so a date that only holds through crunch is the wrong date.
 
 ### 5. Write the plan of intent, before the code
-For any real increment, write a short plan-of-intent doc in the product's `docs/` before it gets built, using `plan-of-intent-template.md`. This is how webs works: the doc gives the build a clear aim and lets the next session see the whole shape. It captures the problem this solves, what already exists and stays, the decided approach, the delight, the stories, and the date. Keep it honest as the build teaches you things; a plan that no longer matches the code is worse than none.
+For any real increment, write a short plan-of-intent doc in the product's `docs/` before it gets built, using `plan-of-intent-template.md`. This is how webs works: the doc gives the build a clear aim and lets the next session see the whole shape. It captures the problem this solves, what already exists and stays, the decided approach, the delight, the stories, and the date. Keep it accurate as the build teaches you things; a plan that no longer matches the code is worse than none.
 
 Record the increment itself with `increment-template.md`, and park anything deliberately deferred in the product's dated `docs/backlog.md`, newest first.
 

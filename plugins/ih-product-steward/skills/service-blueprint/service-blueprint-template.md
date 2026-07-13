@@ -19,4 +19,4 @@
 ## Handoffs
 
 - To `edge-cases`: [which fragile links to work].
-- To designer: [which steps need honest loading, empty, or error states].
+- To designer: [which steps need truthful loading, empty, or error states].

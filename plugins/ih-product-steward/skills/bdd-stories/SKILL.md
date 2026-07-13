@@ -15,7 +15,7 @@ Write stories only for work the steward has decided is worth building. Stories a
 Every story names three things before a single scenario is written, using `story-template.md`:
 - **The persona** it serves, from the `personas` set. "As a user" is a smell; name the real person.
 - **The journey moment** it belongs to, from the relevant `user-journey`. This keeps the story attached to a real experience instead of floating free.
-- **The value**, in the classic frame made honest: *As [persona], I want [capability] so that [outcome they can feel]*. The "so that" is the point. If you cannot state a real outcome, the story is not ready.
+- **The value**, in the classic frame with a real outcome: *As [persona], I want [capability] so that [outcome they can feel]*. The "so that" is the point. If you cannot state a real outcome, the story is not ready.
 
 ### 2. Write the scenarios in Given, When, Then
 Each scenario is one concrete path through the story:

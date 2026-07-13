@@ -33,7 +33,7 @@ At every stage, using `journey-map-template.md`, record:
 - Each drop point and gap becomes a candidate for `bdd-stories` and a line in the `roadmap`, aimed at the moments that matter first.
 - Hand the map to designer as context. A journey tells designer which moment a screen serves and how the person should feel there. designer decides how the screen looks; the journey says what it is for.
 
-## Keep it honest
+## Keep it truthful
 - A journey map built from assumption is a hypothesis, so mark which stages are evidenced (from real use, interviews, or support notes) and which are guessed. Guessed stages are the first to verify with a real person.
 - The emotional line is the point of the artifact. If every stage reads "neutral," the map is not finished; the person felt something, and finding it is the work.
 
