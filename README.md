@@ -39,6 +39,7 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 - **`roadmap`**: build and keep a living now, next, later roadmap organized around customer outcomes, not a dated Gantt chart nobody believes.
 - **`value-increments`**: slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
 - **`edge-cases`**: surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
+- **`tidy-the-docs`**: on first contact with a repo that has an accumulated pile of documentation, read the pile, condense the decisions worth keeping into concise records, prune the spent plans, and reorganize the rest so a human can navigate it. Condenses without losing the reasoning, and trusts git for the full history. The product-docs counterpart to designer's `detect-design-system`.
 
 > **product-steward has no roadmap of its own.** You point it at a product, say a repo called `tide`, and its job is to read `tide`, help shape `tide`'s product decisions, and write the personas, stories, and roadmap into **`tide`'s repository**. Two products the steward touches should end up with their own product thinking, not copies of each other's.
 
@@ -46,6 +47,8 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 
 ```
 steward-the-product ─▶ read the product, its customer, and its promise
+      │
+      │   arrives with a pile of stale docs? ─▶ tidy-the-docs (read, condense, prune, organize)
       │
       │   route to what the product needs next:
       │     who is it for?         ─▶ personas
@@ -109,6 +112,7 @@ Once installed, just do product work and the skills activate by description. Or 
 - `/ih-product-steward:roadmap` to build and keep a living roadmap.
 - `/ih-product-steward:value-increments` to package a release and set a sustainable date.
 - `/ih-product-steward:edge-cases` to harden a story before it ships.
+- `/ih-product-steward:tidy-the-docs` to clean up and condense an accumulated pile of documentation.
 
 A typical run: add your product repo alongside `product-steward` and `designer` in a Claude Code session, let the steward read what's there and route to what the product needs next, and let it write the artifacts into your product's `docs/`, ready for designer to craft.
 

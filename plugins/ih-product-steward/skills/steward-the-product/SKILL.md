@@ -29,6 +29,8 @@ Run these in order. Do not skip to stories or a roadmap.
 ### 1. Read the product
 Before proposing anything, find out what the product already is. Read the repo: its purpose, its `docs/`, its README, any existing personas, pillars, roadmap, or planning docs, and its recent git history to see how work has actually been shaped. A product with existing product artifacts is a set of commitments to respect and extend, not a blank page. If the product uses the plan-of-intent convention (see below), read the relevant plan before you touch its subsystem.
 
+If the repo arrives with an accumulated pile of documentation, stale plans, superseded notes, and decisions scattered across half-contradicting files, run **`tidy-the-docs`** before building new artifacts on top of an unread heap. It reads the pile, condenses the decisions worth keeping, prunes what is spent, and reorganizes the rest so the steward (and a human) can navigate it.
+
 ### 2. State the product read
 Before touching anything, state a one-line **Product Read**:
 
@@ -41,6 +43,7 @@ If the read genuinely diverges and you cannot infer it, ask **one** sharp questi
 ### 3. Route to the right skill
 Based on what the product needs next:
 
+- **An accumulated, stale, or unreadable pile of docs** goes to **`tidy-the-docs`**. Read the pile, condense the decisions worth keeping, prune the spent plans, and reorganize the rest before building on top of it.
 - **No clear picture of who it serves** goes to **`personas`**. Build the small set of people the product is actually for, with their jobs and what they need to trust and do.
 - **No agreed sense of what the product stands for** goes to **`product-pillars`**. Name the few enduring commitments every feature is tested against.
 - **The experience over time is unclear or has gaps** goes to **`user-journeys`**. Map the customer's path, the moments that matter, and where it breaks.
