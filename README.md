@@ -26,9 +26,9 @@ The handoff runs one way most of the time. The steward decides a piece of work i
 
 ## What's inside
 
-This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) that ships one plugin, `ih-product-steward`.
+This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) that ships one plugin, `product-steward`.
 
-### The `ih-product-steward` skills
+### The `product-steward` skills
 
 - **`steward-the-product`**: the prime directive and entry point. Reads what the product is and who it serves, sets the precedence order for product decisions (the customer's real experience always wins), draws the boundary with designer, and routes to the right skill. Encodes how webs works: plans of intent before the code, a dated backlog, and the repo as the memory. **Start here.**
 - **`personas`**: build and maintain the small set of real people the product is for, with their jobs to be done, what they need to trust and do, and what would make them feel behind. Never a stock "Sarah Chen."
@@ -83,7 +83,7 @@ In any product where you use Claude Code:
 Then install it:
 
 ```
-/plugin install ih-product-steward@product-steward
+/plugin install product-steward@product-steward
 ```
 
 Update the catalog later with:
@@ -96,23 +96,23 @@ Pair it with designer for the full picture:
 
 ```
 /plugin marketplace add weberswords/designer
-/plugin install ih-designer@designer
+/plugin install designer@designer
 ```
 
 ## Use
 
 Once installed, just do product work and the skills activate by description. Or invoke explicitly:
 
-- `/ih-product-steward:steward-the-product` to start any product task the right way.
-- `/ih-product-steward:personas` to define or extend who the product is for.
-- `/ih-product-steward:product-pillars` to name what the product stands for.
-- `/ih-product-steward:user-journeys` to map the experience over time and find its gaps.
-- `/ih-product-steward:service-blueprint` to map the system behind the experience.
-- `/ih-product-steward:bdd-stories` to turn decided work into buildable stories.
-- `/ih-product-steward:roadmap` to build and keep a living roadmap.
-- `/ih-product-steward:value-increments` to package a release and set a sustainable date.
-- `/ih-product-steward:edge-cases` to harden a story before it ships.
-- `/ih-product-steward:tidy-the-docs` to clean up and condense an accumulated pile of documentation.
+- `/product-steward:steward-the-product` to start any product task the right way.
+- `/product-steward:personas` to define or extend who the product is for.
+- `/product-steward:product-pillars` to name what the product stands for.
+- `/product-steward:user-journeys` to map the experience over time and find its gaps.
+- `/product-steward:service-blueprint` to map the system behind the experience.
+- `/product-steward:bdd-stories` to turn decided work into buildable stories.
+- `/product-steward:roadmap` to build and keep a living roadmap.
+- `/product-steward:value-increments` to package a release and set a sustainable date.
+- `/product-steward:edge-cases` to harden a story before it ships.
+- `/product-steward:tidy-the-docs` to clean up and condense an accumulated pile of documentation.
 
 A typical run: add your product repo alongside `product-steward` and `designer` in a Claude Code session, let the steward read what's there and route to what the product needs next, and let it write the artifacts into your product's `docs/`, ready for designer to craft.
 
@@ -120,11 +120,11 @@ A typical run: add your product repo alongside `product-steward` and `designer` 
 
 ## Making it yours
 
-`ih-product-steward` is authored to be edited. It encodes *how webs works*, not a process to impose:
+`product-steward` is authored to be edited. It encodes *how webs works*, not a process to impose:
 
 - Tune the questions the skills ask and the templates they write in each skill's `SKILL.md` and its template files.
 - Adjust the precedence order and the boundary with designer in `steward-the-product/SKILL.md`.
-- Add your own skills under `plugins/ih-product-steward/skills/<name>/SKILL.md` and they ship with the plugin.
+- Add your own skills under `plugins/product-steward/skills/<name>/SKILL.md` and they ship with the plugin.
 
 It deliberately ships **no default personas, pillars, or roadmap.** The steward builds each product its own.
 

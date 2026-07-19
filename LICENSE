@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 The Intelligent Hoodlums (weberswords)
+Copyright (c) 2026 Studio W Labs (weberswords)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-This license covers the `ih-designer` plugin and the marketplace configuration
+This license covers the `product-steward` plugin and the marketplace configuration
 authored in this repository. Plugins referenced by this marketplace but hosted
 in other repositories (impeccable, taste-skill, emilkowalski/skills) remain
 under their own licenses and copyrights — see CREDITS.md.
