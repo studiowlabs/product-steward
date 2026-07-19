@@ -3,21 +3,21 @@
   "name": "product-steward",
   "description": "A portable product steward for Claude Code. Product-ownership craft skills that keep the customer experience at the heart of every build: personas, product pillars, user journeys, service blueprints, BDD user stories, a living roadmap, value increments that delight, and edge-case discipline. Pointed at each product, it writes into that product's own repo.",
   "owner": {
-    "name": "The Intelligent Hoodlums",
-    "email": "webs@theintelligenthoodlums.com"
+    "name": "Studio W Labs",
+    "email": "webs@studiowlabs.com"
   },
   "metadata": {
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "ih-product-steward",
-      "source": "ih-product-steward",
+      "name": "product-steward",
+      "source": "product-steward",
       "description": "The product steward: read what a product is and who it serves, build and keep its personas, pillars, journeys, service blueprints, BDD stories, and roadmap, package work into value increments that delight, surface edge cases early, and set capacity-based delivery dates. It owns what/why/for-whom/when; it hands how-it-looks-and-feels to designer. No house roadmap, every product gets its own, written into its repo.",
       "version": "0.1.0",
       "author": {
-        "name": "The Intelligent Hoodlums",
-        "email": "webs@theintelligenthoodlums.com"
+        "name": "Studio W Labs",
+        "email": "webs@studiowlabs.com"
       },
       "license": "MIT",
       "category": "product",
