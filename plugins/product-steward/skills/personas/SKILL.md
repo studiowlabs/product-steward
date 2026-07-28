@@ -7,18 +7,18 @@ description: Build and maintain the small set of real people a product is for, s
 
 A persona is the specific person a product decision is for. Without one, a backlog fills with features that serve nobody in particular, and "the user" becomes a stand-in for whatever the builder happened to want. The steward's job is to make the customer concrete, so every story, journey, and roadmap item has a real human behind it.
 
-Personas are the product's, so build them *with* the evidence the product already has, and write them into the **product's own repo**. Do not import a persona from another product. The person `tide` serves is not the person `hoodlums-home` serves.
+Personas are the product's, so build them *with* the evidence the product already has, and write them into the **product's own repo**. Do not import a persona from another product. Each product in the studio w labs family serves its own people, discovered from its own evidence.
 
 ## The build loop
 
 ### 1. Ground in who is already here
 Before inventing anyone, find out who the product already knows it serves:
 - Read the repo for existing personas, audience notes, the README's stated audience, marketing copy, and the thesis or promise.
-- Read the git history and `docs/` for the real person the work has been shaped around. webs's products often serve a specific, real person (in `tide`, the solo or fractional worker webs is building for, which is close to webs herself). Start from that real person, not a demographic.
+- Read the git history and `docs/` for the real person the work has been shaped around. webs's products often serve a specific, real person (in `tide`, the solo or fractional worker webs is building for, which is close to webs herself). Start from that real person and stay grounded in her, ahead of any demographic.
 - Look for evidence of real use: support notes, testimonials, survey results, interview notes. Evidence beats invention every time.
 
 ### 2. Facilitate the set, do not assume it
-Ask a **small number of high-leverage questions**, never a blank "who is this for" and never a long dump:
+Ask a **small number of pointed questions**, keeping the set short and each one specific enough to answer:
 - Who is the one person you are most building this for right now? Describe a real one.
 - What are they trying to get done, in their words, on the day they reach for this?
 - What do they already do instead, and what does that cost them?
@@ -28,7 +28,7 @@ Ask a **small number of high-leverage questions**, never a blank "who is this fo
 Keep the set small. Two or three personas that are sharp beat six that blur together. A product serving everyone serves no one in particular.
 
 ### 3. Write each persona as a decision tool
-For each persona, capture what actually changes a product decision, using `persona-template.md`. The parts that earn their place:
+For each persona, capture what actually changes a product decision, using `persona-template.md`. The parts worth keeping:
 - **A real name and a one-line who.** Use a real person the product serves, or a clearly-chosen placeholder webs picks. Never a stock AI name like Sarah Chen, John Smith, or Acme Corp.
 - **The job to be done.** What they hire the product to do, in their language, tied to a real moment and a real trigger. Not a feature list; the outcome they want.
 - **What they need to trust.** What has to be true for them to rely on the product with something that matters to them (their money, their time, their reputation, their classroom).
@@ -54,4 +54,4 @@ Every persona carries a "where they are new" section on purpose. webs builds fro
 - designer reads these personas to know who its interface is for. It does not author them.
 
 ## The one rule
-A persona is a decision tool, not a character study. If a detail would not change a product decision, cut it. If a real person the product serves would not recognize themselves in it, it is wrong.
+A persona is a decision tool. If a detail would not change a product decision, cut it. If a real person the product serves would not recognize themselves in it, it is wrong.

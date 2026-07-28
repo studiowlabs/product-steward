@@ -38,7 +38,7 @@ Each fragile link is a candidate for an `edge-cases` pass and, if it matters, a 
 ### 5. Write it down and route the work
 - Write the blueprint into the product's `docs/` (a `blueprints/` folder or a `blueprint-<flow>.md`), next to the journey it serves.
 - Fragile links become `edge-cases` and, where they threaten a moment that matters, `bdd-stories` and roadmap items.
-- The boundary with designer holds here too: the blueprint is the product's operating model, not the interface. designer needs to know that a step depends on an email or a slow third party, because that shapes the loading, empty, and error states it designs. The steward maps the system; designer designs how its states appear.
+- The boundary with designer holds here too: the blueprint is the product's operating model, held one layer beneath the interface. designer needs to know that a step depends on an email or a slow third party, because that shapes the loading, empty, and error states it designs. The steward maps the system; designer designs how its states appear.
 
 ## Keep it proportional
 Not every flow needs a blueprint. Build one when the experience depends on more than the screen, especially where money, data integrity, integrations, or a human step are involved. A simple, self-contained interaction does not need one, and forcing it wastes the artifact.

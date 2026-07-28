@@ -27,7 +27,7 @@ For each place, ask the plain question: what happens if this goes wrong here, an
 Not every edge case is worth building for. Triage each one:
 - **Handle now.** It is likely, or its failure is unacceptable (lost money, corrupted data, a person locked out, a broken moment that matters). This becomes an unhappy-path scenario in the story and part of its acceptance criteria.
 - **Handle later.** It is real but rare and survivable. Park it in the dated `backlog.md` with a one-line why, so the repo remembers.
-- **Accept.** It is not worth guarding against, and that is a decision recorded on purpose, not an oversight. Say so, so no one relitigates it later.
+- **Accept.** It is not worth guarding against, and that is a decision recorded on purpose. Say so, so no one relitigates it later.
 
 Write the "handle now" cases back into the `bdd-stories` as their own Given, When, Then scenarios. A story is not done when the happy path works; it is done when it holds up when things go wrong.
 

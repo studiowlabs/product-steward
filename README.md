@@ -36,12 +36,12 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 - **`user-journeys`**: map the customer's path over time, the moments that matter, the emotional arc, and where the experience breaks or drops them.
 - **`service-blueprint`**: map the system behind the experience: front stage, back stage, and the support that has to exist for the experience to hold.
 - **`bdd-stories`**: turn decided work into buildable Given, When, Then user stories with acceptance criteria, each tied to a persona and a journey moment.
-- **`roadmap`**: build and keep a living now, next, later roadmap organized around customer outcomes, not a dated Gantt chart nobody believes.
+- **`roadmap`**: build and keep a living now, next, later roadmap organized around customer outcomes the team can believe and keep current.
 - **`value-increments`**: slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
 - **`edge-cases`**: surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
 - **`tidy-the-docs`**: on first contact with a repo that has an accumulated pile of documentation, read the pile, condense the decisions worth keeping into concise records, prune the spent plans, and reorganize the rest so a human can navigate it. Condenses without losing the reasoning, and trusts git for the full history. The product-docs counterpart to designer's `detect-design-system`.
 
-> **product-steward has no roadmap of its own.** You point it at a product, say a repo called `tide`, and its job is to read `tide`, help shape `tide`'s product decisions, and write the personas, stories, and roadmap into **`tide`'s repository**. Two products the steward touches should end up with their own product thinking, not copies of each other's.
+> **product-steward has no roadmap of its own.** You point it at a product, say a repo called `tide`, and its job is to read `tide`, help shape `tide`'s product decisions, and write the personas, stories, and roadmap into **`tide`'s repository**. Two products the steward touches should each end up with their own product thinking.
 
 ### How the skills work together
 
@@ -101,7 +101,7 @@ Pair it with designer for the full picture:
 
 ## Use
 
-Once installed, just do product work and the skills activate by description. Or invoke explicitly:
+Once installed, just do product work and the skills activate by description, or invoke explicitly:
 
 - `/product-steward:steward-the-product` to start any product task the right way.
 - `/product-steward:personas` to define or extend who the product is for.
@@ -120,7 +120,7 @@ A typical run: add your product repo alongside `product-steward` and `designer` 
 
 ## Making it yours
 
-`product-steward` is authored to be edited. It encodes *how webs works*, not a process to impose:
+`product-steward` is authored to be edited. It encodes *how webs works*, and it is yours to adapt:
 
 - Tune the questions the skills ask and the templates they write in each skill's `SKILL.md` and its template files.
 - Adjust the precedence order and the boundary with designer in `steward-the-product/SKILL.md`.

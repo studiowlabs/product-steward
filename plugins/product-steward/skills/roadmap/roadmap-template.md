@@ -1,6 +1,6 @@
 # [product] roadmap
 
-> Organized by customer outcome, not feature. Last updated: [date].
+> Organized by customer outcome. Last updated: [date].
 > Dates are capacity-based forecasts with their assumptions attached, on "now" items only.
 
 ## Now

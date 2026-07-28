@@ -12,5 +12,5 @@ Decisions worth preserving (must survive the cleanup):
 - [...]
 
 Open questions for webs (do not decide silently):
-- [doc that might still be load-bearing], because [why unsure]
+- [doc that might still be doing real work], because [why unsure]
 - [...]

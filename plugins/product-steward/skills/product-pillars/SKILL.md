@@ -18,7 +18,7 @@ Pillars are the product's, grounded in its promise and its personas, and written
 ### 2. Propose a small set, each as a commitment with a cost
 Offer **three to five** candidate pillars, no more. A product with ten pillars has none. Each pillar is:
 - **A commitment, stated plainly.** What the product will reliably do or protect for its customer. Write it as something you could hold a feature against and get a yes or no.
-- **Paired with its trade-off.** A real pillar gives something up. If a pillar costs nothing to hold, it is a slogan, not a commitment. Name what the product will decline in order to keep it.
+- **Paired with its trade-off.** A real pillar gives something up. If a pillar costs nothing to hold, it is only a slogan. Name what the product will decline in order to keep it.
 - **Tied to a persona and an outcome.** Say which person it serves and what they get.
 
 State each in one or two sentences, concrete enough to decide with. "Fast, simple, and elegant" is not a pillar; it is three adjectives. "The customer hits her number in fewer hours, never more" is a pillar, because you can test a feature against it.
@@ -32,10 +32,10 @@ For each candidate, run it against reality:
 ### 4. Write them down and put them to work
 - Write the pillars into the product's `docs/` (a `pillars.md`, or a section of a product doc), each with its commitment, its trade-off, and the persona it serves.
 - Reference them from the roadmap and from stories. When a feature is proposed, the first question is which pillar it serves, and the second is which pillar it strains.
-- A pillar is allowed to change, but only on purpose. If the product decides to drop or rewrite one, that is a real decision recorded in the repo, not a quiet drift.
+- A pillar is allowed to change, but only on purpose. If the product decides to drop or rewrite one, that is a real decision recorded in the repo.
 
 ## The relationship to designer
-Pillars are product commitments, not visual ones. designer has its own prime directive (honor each project's own vibe), and the two reinforce each other: the steward's pillars say what the product is for, and designer expresses that in the interface. Keep pillars at the product altitude. "The interface feels calm" is a design outcome; "the customer is never made to feel behind" is a product pillar that designer then expresses.
+Pillars are product commitments held at the product altitude. designer has its own prime directive (honor each project's own vibe), and the two reinforce each other: the steward's pillars say what the product is for, and designer expresses that in the interface. Keep pillars at the product altitude. "The interface feels calm" is a design outcome; "the customer is never made to feel behind" is a product pillar that designer then expresses.
 
 ## Where the other skills fit
 - `steward-the-product` puts pillars second in the precedence order, just under the customer's real experience. They are the standing test for everything below.
