@@ -13,8 +13,8 @@ This is the product-docs counterpart to designer's `detect-design-system`. desig
 
 It will not quietly destroy a decision. Condensing is the point, and condensing means keeping the decision and the reasoning while cutting the scaffolding around them. The thinking stays. Two rules hold the whole skill:
 
-- **Propose before you change.** Produce the Docs Read and the cleanup plan, show them, and get a nod before deleting, merging, or rewriting anything. webs did not write these docs for a bot to bulldoze.
-- **git is the archive.** The full text of every old doc lives in git history forever. That means a superseded plan can be condensed to its decision and the verbose original removed, without losing anything, and without leaving an `archive/` folder of dead markdown that clutters the repo or leaks onto a deploy. Do not build an archive folder unless webs asks for one.
+- **Propose before you change.** Produce the Docs Read and the cleanup plan, show them, and get a nod before deleting, merging, or rewriting anything. The product owner did not write these docs for a bot to bulldoze.
+- **git is the archive.** The full text of every old doc lives in git history forever. That means a superseded plan can be condensed to its decision and the verbose original removed, without losing anything, and without leaving an `archive/` folder of dead markdown that clutters the repo or leaks onto a deploy. Do not build an archive folder unless the product owner asks for one.
 
 ## The loop
 
@@ -51,8 +51,8 @@ Flag anything you are unsure about rather than deciding it silently. If a doc mi
 ### 4. Condense, keeping the why
 For each doc being condensed, write a short decision record using `decision-record-template.md`: what was decided, why, what it replaced, and the date. A good record is a few sentences that a person reading the repo in six months can understand without the original ten-page plan. Keep the reasoning that would otherwise have to be reconstructed, and cut the process, the throat-clearing, and the parts the code now documents itself.
 
-Follow webs's conventions while you condense:
-- Decision records read in her voice: complete sentences, the Oxford comma, no em dashes, plain language over jargon.
+Follow the product's conventions while you condense:
+- Decision records read in the house voice: complete sentences, the Oxford comma, no em dashes, plain language over jargon.
 - Deferred and parked ideas belong in the dated `backlog.md`, newest first, gathered in that one place.
 - A plan of intent that is still live stays in the plan-of-intent shape (see `value-increments`); only shipped plans collapse to records.
 
@@ -67,7 +67,7 @@ Give the folder a structure someone can navigate, adapted to the repo rather tha
 Honor whatever organization the repo already has that works. The goal is a folder a newcomer can read top to bottom and understand the product's decisions. Restructure only where it serves that reader.
 
 ### 6. Execute and commit in readable steps
-Once webs approves the plan, make the changes and commit them in logical groups (condense one cluster, merge a set of duplicates, remove the spent originals), so the cleanup itself is a readable diff and any single step can be undone. The repo stays the memory; this pass just makes the memory legible.
+Once the product owner approves the plan, make the changes and commit them in logical groups (condense one cluster, merge a set of duplicates, remove the spent originals), so the cleanup itself is a readable diff and any single step can be undone. The repo stays the memory; this pass just makes the memory legible.
 
 ## When there is nothing to tidy
 If the read shows the docs are already current and legible, say so and stop. A repo with a clean, small `docs/` does not need a reorganization, and inventing one wastes the pass. This skill is worth running only when the pile has gotten ahead of the reader.

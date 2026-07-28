@@ -7,14 +7,14 @@ description: Build and maintain the small set of real people a product is for, s
 
 A persona is the specific person a product decision is for. Without one, a backlog fills with features that serve nobody in particular, and "the user" becomes a stand-in for whatever the builder happened to want. The steward's job is to make the customer concrete, so every story, journey, and roadmap item has a real human behind it.
 
-Personas are the product's, so build them *with* the evidence the product already has, and write them into the **product's own repo**. Do not import a persona from another product. Each product in the studio w labs family serves its own people, discovered from its own evidence.
+Personas are the product's, so build them *with* the evidence the product already has, and write them into the **product's own repo**. Do not import a persona from another product. Each product serves its own people, discovered from its own evidence.
 
 ## The build loop
 
 ### 1. Ground in who is already here
 Before inventing anyone, find out who the product already knows it serves:
 - Read the repo for existing personas, audience notes, the README's stated audience, marketing copy, and the thesis or promise.
-- Read the git history and `docs/` for the real person the work has been shaped around. webs's products often serve a specific, real person (in `tide`, the solo or fractional worker webs is building for, which is close to webs herself). Start from that real person and stay grounded in her, ahead of any demographic.
+- Read the git history and `docs/` for the real person the work has been shaped around. A product often serves a specific, real person, the one it has actually been built for. Start from that real person and stay grounded in them, ahead of any demographic.
 - Look for evidence of real use: support notes, testimonials, survey results, interview notes. Evidence beats invention every time.
 
 ### 2. Facilitate the set, do not assume it
@@ -29,7 +29,7 @@ Keep the set small. Two or three personas that are sharp beat six that blur toge
 
 ### 3. Write each persona as a decision tool
 For each persona, capture what actually changes a product decision, using `persona-template.md`. The parts worth keeping:
-- **A real name and a one-line who.** Use a real person the product serves, or a clearly-chosen placeholder webs picks. Never a stock AI name like Sarah Chen, John Smith, or Acme Corp.
+- **A real name and a one-line who.** Use a real person the product serves, or a clearly-chosen placeholder you pick. Never a stock AI name like Sarah Chen, John Smith, or Acme Corp.
 - **The job to be done.** What they hire the product to do, in their language, tied to a real moment and a real trigger. Not a feature list; the outcome they want.
 - **What they need to trust.** What has to be true for them to rely on the product with something that matters to them (their money, their time, their reputation, their classroom).
 - **What they need to be able to do.** The plain capabilities, stated as outcomes, that the product owes them.
@@ -45,7 +45,7 @@ Name who the product is deliberately not for right now, and why. An anti-persona
 - When a story, journey, or roadmap item is written, it names the persona it serves. A persona nobody references is dead weight; delete or fix it.
 
 ## Accessibility and cognitive load belong here
-Every persona carries a "where they are new" section on purpose. webs builds from a universal-design and cognitive-load stance, so a persona should surface where the product risks overwhelming, talking down to, or gatekeeping the person it serves. If a persona could be a person with low prior knowledge, limited time, or an access need, say so, because that shapes the plain-language and inclusive-design work downstream.
+Every persona carries a "where they are new" section on purpose. The steward builds from a universal-design and cognitive-load stance, so a persona should surface where the product risks overwhelming, talking down to, or gatekeeping the person it serves. If a persona could be a person with low prior knowledge, limited time, or an access need, say so, because that shapes the plain-language and inclusive-design work downstream.
 
 ## Where the other skills fit
 - `steward-the-product` sets the product read this builds on.

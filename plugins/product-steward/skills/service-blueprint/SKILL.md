@@ -19,7 +19,7 @@ For each step the customer takes, using `service-blueprint-template.md`, record 
 - **Front stage.** What the customer sees and does: the screen, the message, the action. This is where the journey and the blueprint meet.
 - **Back stage.** What the product does out of sight to serve that step: a calculation, a database write, a job, a state change, an email queued.
 - **Systems and integrations.** The technical pieces that carry it: the auth provider, the database, the payment or sheet backend, a third-party API, a scheduled task. Name them, because they are where reality intrudes.
-- **Support processes.** Anything a human or an external party has to do for the step to work: a manual review, a configuration webs has to set once (like enabling a sign-in provider in a dashboard), a partner's action.
+- **Support processes.** Anything a human or an external party has to do for the step to work: a manual review, a configuration the team has to set once (like enabling a sign-in provider in a dashboard), a partner's action.
 
 ### 3. Draw the lines
 Two lines make a blueprint more than a list:

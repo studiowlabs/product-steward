@@ -5,7 +5,7 @@ description: Turn decided product work into buildable user stories in behavior-d
 
 # BDD User Stories
 
-A user story in behavior-driven form says who the work is for, what they get, and exactly how you would know it works. The Given, When, Then scenarios are the bridge between the product decision and the build: a developer can implement them, a test can assert them, and webs can read them and confirm the product does what the customer needed. A story without acceptance criteria is a wish; a story with them is a contract.
+A user story in behavior-driven form says who the work is for, what they get, and exactly how you would know it works. The Given, When, Then scenarios are the bridge between the product decision and the build: a developer can implement them, a test can assert them, and the product owner can read them and confirm the product does what the customer needed. A story without acceptance criteria is a wish; a story with them is a contract.
 
 Write stories only for work the steward has decided is worth building. Stories are where a `value-increment` becomes buildable, and the scope is already set before they are written. They live in the **product's own repo**.
 

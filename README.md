@@ -4,7 +4,7 @@ Your portable **product steward** for Claude Code, a plugin you add to any produ
 
 The whole thing is built around one objective:
 
-> **Keep the customer experience at the heart of everything the product builds, and stop webs from having to repeat, by hand, every product-ownership move she already knows.**
+> **Keep the customer experience at the heart of everything the product builds, and stop the product owner from having to repeat, by hand, every product-ownership move they already know.**
 
 It reads what a product already is and who it serves, respects the product decisions already made, and helps make the next ones on purpose: who the build is for, what the product stands for, what to build next, and how the customer will feel the difference. Every artifact lands in the product's own repo.
 
@@ -30,7 +30,7 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 
 ### The `product-steward` skills
 
-- **`steward-the-product`**: the prime directive and entry point. Reads what the product is and who it serves, sets the precedence order for product decisions (the customer's real experience always wins), draws the boundary with designer, and routes to the right skill. Encodes how webs works: plans of intent before the code, a dated backlog, and the repo as the memory. **Start here.**
+- **`steward-the-product`**: the prime directive and entry point. Reads what the product is and who it serves, sets the precedence order for product decisions (the customer's real experience always wins), draws the boundary with designer, and routes to the right skill. Encodes a disciplined way to run a product: plans of intent before the code, a dated backlog, and the repo as the memory. **Start here.**
 - **`personas`**: build and maintain the small set of real people the product is for, with their jobs to be done, what they need to trust and do, and what would make them feel behind. Never a stock "Sarah Chen."
 - **`product-pillars`**: name the few enduring commitments the product stands for, so every feature has something concrete to be tested against.
 - **`user-journeys`**: map the customer's path over time, the moments that matter, the emotional arc, and where the experience breaks or drops them.
@@ -120,7 +120,7 @@ A typical run: add your product repo alongside `product-steward` and `designer` 
 
 ## Making it yours
 
-`product-steward` is authored to be edited. It encodes *how webs works*, and it is yours to adapt:
+`product-steward` is authored to be edited. It encodes *a disciplined way to run a product*, and it is yours to adapt:
 
 - Tune the questions the skills ask and the templates they write in each skill's `SKILL.md` and its template files.
 - Adjust the precedence order and the boundary with designer in `steward-the-product/SKILL.md`.

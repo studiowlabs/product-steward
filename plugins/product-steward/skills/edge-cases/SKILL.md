@@ -5,7 +5,7 @@ description: Surface the unhappy paths, failure modes, and edge conditions for a
 
 # Edge Cases
 
-Most product work is described in its happy path: the person does the expected thing, in the expected state, and gets the expected result. Production is where the other paths show up, the empty account, the double-click, the expired session, the third party that is down, the person using a keyboard and a screen reader, the value that is zero or negative or enormous. Thinking about edge cases early is one of the specific product-ownership moves webs does by habit, and the one this skill exists to make sure never gets skipped.
+Most product work is described in its happy path: the person does the expected thing, in the expected state, and gets the expected result. Production is where the other paths show up, the empty account, the double-click, the expired session, the third party that is down, the person using a keyboard and a screen reader, the value that is zero or negative or enormous. Thinking about edge cases early is one of the specific product-ownership moves a disciplined owner does by habit, and the one this skill exists to make sure never gets skipped.
 
 Edge cases are found against a specific story or flow, and the results are written into the **product's own repo** as unhappy-path scenarios and hardening work.
 

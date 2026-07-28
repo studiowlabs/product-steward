@@ -12,7 +12,7 @@ Pillars are the product's, grounded in its promise and its personas, and written
 ## The build loop
 
 ### 1. Ground in the promise and the people
-- Read the product's stated promise or thesis, its README, and its `docs/`. Many of webs's products already state their spine in prose; `tide`'s thesis is an explicit set of commitments. Start by finding what is already there.
+- Read the product's stated promise or thesis, its README, and its `docs/`. Many products already state their spine in prose; `tide`'s thesis is an explicit set of commitments. Start by finding what is already there.
 - Read the `personas`. A pillar exists to serve the people in the set. A proposed pillar that serves nobody in the set is suspect.
 
 ### 2. Propose a small set, each as a commitment with a cost

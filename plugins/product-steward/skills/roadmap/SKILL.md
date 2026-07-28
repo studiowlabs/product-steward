@@ -1,11 +1,11 @@
 ---
 name: roadmap
-description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when webs needs to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays accurate. Confirm the product read, pillars, and increments first.
+description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when you need to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays accurate. Confirm the product read, pillars, and increments first.
 ---
 
 # Roadmap
 
-A roadmap is the product's plan for the sequence of customer outcomes it will deliver, held at the altitude of "what changes for the person and roughly when," not "which task on which day." Built well, it lets webs see the whole shape of where a product is going and lets any session pick up the next right piece of work. Built badly, it becomes a dated chart nobody believes, obsolete the day after it is drawn.
+A roadmap is the product's plan for the sequence of customer outcomes it will deliver, held at the altitude of "what changes for the person and roughly when," not "which task on which day." Built well, it lets the product owner see the whole shape of where a product is going and lets any session pick up the next right piece of work. Built badly, it becomes a dated chart nobody believes, obsolete the day after it is drawn.
 
 The roadmap is the product's, organized around its `personas` and `product-pillars`, and written into the **product's own repo**. There is no house roadmap to copy; each product gets its own.
 
