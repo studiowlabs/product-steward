@@ -11,10 +11,10 @@ This is the product-docs counterpart to designer's `detect-design-system`. desig
 
 ## The one thing this skill will not do
 
-It will not quietly destroy a decision. Condensing is the point, and condensing means keeping the decision and the reasoning while cutting the scaffolding around them, not deleting the thinking. Two rules hold the whole skill:
+It will not quietly destroy a decision. Condensing is the point, and condensing means keeping the decision and the reasoning while cutting the scaffolding around them. The thinking stays. Two rules hold the whole skill:
 
-- **Propose before you change.** Produce the Docs Read and the cleanup plan, show them, and get a nod before deleting, merging, or rewriting anything. webs did not write these docs for a bot to bulldoze.
-- **git is the archive.** The full text of every old doc lives in git history forever. That means a superseded plan can be condensed to its decision and the verbose original removed, without losing anything, and without leaving an `archive/` folder of dead markdown that clutters the repo or leaks onto a deploy. Do not build an archive folder unless webs asks for one.
+- **Propose before you change.** Produce the Docs Read and the cleanup plan, show them, and get a nod before deleting, merging, or rewriting anything. The product owner did not write these docs for a bot to bulldoze.
+- **git is the archive.** The full text of every old doc lives in git history forever. That means a superseded plan can be condensed to its decision and the verbose original removed, without losing anything, and without leaving an `archive/` folder of dead markdown that clutters the repo or leaks onto a deploy. Do not build an archive folder unless the product owner asks for one.
 
 ## The loop
 
@@ -28,7 +28,7 @@ Inventory every document before judging any of it. For each file in `docs/` (and
 Read the git history alongside the files. A plan whose feature shipped three merges ago is historical; a plan for work still in flight is live. The commit log tells you which.
 
 ### 2. Produce the Docs Read
-Summarize the pile as a compact, structured read, not prose, using `docs-read-template.md`. Classify each document:
+Summarize the pile as a compact, structured read, using `docs-read-template.md`. Classify each document:
 - **Live.** Still describes the product or a plan in flight. Keep, and only tighten if it has gone loose.
 - **Shipped.** A plan of intent whose work is done. The plan is spent, but the *decision and the why* inside it are worth keeping. Condense to a decision record.
 - **Superseded.** A later doc or a later decision has overtaken it. Condense anything still-true into the record that replaced it, then remove the original.
@@ -46,14 +46,14 @@ Turn the read into a plan of specific actions, each with its reason, and show it
 - **Remove** [doc], because its decision is now captured in [where], and git holds the original.
 - **Keep** [doc] as is.
 
-Flag anything you are unsure about rather than deciding it silently. If a doc might still be load-bearing, say so and ask. When a removal is the right call, name where its decision now lives, so the plan shows nothing is lost.
+Flag anything you are unsure about rather than deciding it silently. If a doc might still be doing real work, say so and ask. When a removal is the right call, say where its decision now lives, so the plan shows nothing is lost.
 
 ### 4. Condense, keeping the why
 For each doc being condensed, write a short decision record using `decision-record-template.md`: what was decided, why, what it replaced, and the date. A good record is a few sentences that a person reading the repo in six months can understand without the original ten-page plan. Keep the reasoning that would otherwise have to be reconstructed, and cut the process, the throat-clearing, and the parts the code now documents itself.
 
-Follow webs's conventions while you condense:
-- Decision records read in her voice: complete sentences, the Oxford comma, no em dashes, plain language over jargon.
-- Deferred and parked ideas belong in the dated `backlog.md`, newest first, not scattered across notes.
+Follow the product's conventions while you condense:
+- Decision records read in the house voice: complete sentences, the Oxford comma, no em dashes, plain language over jargon.
+- Deferred and parked ideas belong in the dated `backlog.md`, newest first, gathered in that one place.
 - A plan of intent that is still live stays in the plan-of-intent shape (see `value-increments`); only shipped plans collapse to records.
 
 ### 5. Organize for a human
@@ -64,19 +64,19 @@ Give the folder a structure someone can navigate, adapted to the repo rather tha
 - The **`backlog.md`** as the single home for parked and deferred work.
 - **Reference notes** grouped where a human would look for them.
 
-Honor whatever organization the repo already has that works. The goal is a folder a newcomer can read top to bottom and understand the product's decisions, not a folder restructured for its own sake.
+Honor whatever organization the repo already has that works. The goal is a folder a newcomer can read top to bottom and understand the product's decisions. Restructure only where it serves that reader.
 
 ### 6. Execute and commit in readable steps
-Once webs approves the plan, make the changes and commit them in logical groups (condense one cluster, merge a set of duplicates, remove the spent originals), so the cleanup itself is a readable diff and any single step can be undone. The repo stays the memory; this pass just makes the memory legible.
+Once the product owner approves the plan, make the changes and commit them in logical groups (condense one cluster, merge a set of duplicates, remove the spent originals), so the cleanup itself is a readable diff and any single step can be undone. The repo stays the memory; this pass just makes the memory legible.
 
 ## When there is nothing to tidy
-If the read shows the docs are already current and legible, say so and stop. A repo with a clean, small `docs/` does not need a reorganization, and inventing one wastes the pass. This skill earns its place only when the pile has gotten ahead of the reader.
+If the read shows the docs are already current and legible, say so and stop. A repo with a clean, small `docs/` does not need a reorganization, and inventing one wastes the pass. This skill is worth running only when the pile has gotten ahead of the reader.
 
 ## Where the other skills fit
 - `steward-the-product` routes here first when a repo arrives with an accumulated doc pile, before building new artifacts on top of an unread one.
 - `value-increments` owns the plan-of-intent shape that live plans keep and that shipped plans condense from.
 - `roadmap` and `backlog.md` receive any still-open work the cleanup surfaces.
-- designer's `detect-design-system` and `design-audit` do the same first-contact and consistency work for the design system, not the product docs. Keep to the product side here.
+- designer's `detect-design-system` and `design-audit` do the same first-contact and consistency work for the design system. Keep to the product side here.
 
 ## The one rule
 Condense, do not erase. Every document removed has its decision captured somewhere a human will find it, and its full text still in git. If a cleanup would lose the reasoning behind a decision, it is not a cleanup; it is amnesia.

@@ -16,8 +16,8 @@ re-litigating.]
 
 ## The decided approach
 
-[What we are going to do, in plain language, and why this way and not the obvious
-alternative. Enough that someone could start building from this.]
+[What we are going to do, in plain language, and the reasoning for choosing it over the
+obvious alternative. Enough that someone could start building from this.]
 
 ## The delight
 
@@ -34,7 +34,7 @@ When this lands, [persona] can [do the thing] and feels [the change], where befo
 
 Landing around [date range], assuming [real weekly capacity] and no surprise from
 [the biggest unknown]. If that assumption breaks, the date moves and the reason lands
-here, not in a weekend of crunch.
+here, and the weekend stays hers.
 
 ## Deferred (parked in backlog.md)
 

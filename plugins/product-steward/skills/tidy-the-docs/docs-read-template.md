@@ -11,6 +11,6 @@ Decisions worth preserving (must survive the cleanup):
 - [decision], currently buried in [doc] -> lands in [decision record / merged doc]
 - [...]
 
-Open questions for webs (do not decide silently):
-- [doc that might still be load-bearing], because [why unsure]
+Open questions for the product owner (do not decide silently):
+- [doc that might still be doing real work], because [why unsure]
 - [...]

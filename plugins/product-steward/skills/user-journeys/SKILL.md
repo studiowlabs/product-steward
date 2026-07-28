@@ -9,13 +9,15 @@ A user journey map follows one persona through the product over time, and shows 
 
 A journey belongs to a persona and to the product. Map it for one specific person from the `personas` set, and write it into the **product's own repo**.
 
+A note for any future voice pass: "journey" is a deliberate domain term of art here, drawn from service-design practice, so keep it. It is the established name of this artifact, and the words "user journey" and "journey map" are the terms a practitioner reaches for.
+
 ## The build loop
 
 ### 1. Pick one persona and one scope
 A journey is for one person doing one thing. Name the persona (from `personas`) and the scope: the whole arc from first hearing about the product to habitual use, or a single flow like onboarding, first real result, or renewal. A map that tries to cover every persona and every flow at once shows nothing clearly.
 
 ### 2. Set the stages
-Lay out the stages the persona moves through, in order. Common shapes: first contact, deciding to try, setting up, first real use, first real result, habit, and the moments where they might leave. Use the stages that fit this product and this flow, not a generic template. `tide`'s "landing on the product today means three $0 cards and a silent to-do list" is a real stage worth naming exactly.
+Lay out the stages the persona moves through, in order. Common shapes: first contact, deciding to try, setting up, first real use, first real result, habit, and the moments where they might leave. Use the stages that fit this product and this flow. `tide`'s "landing on the product today means three $0 cards and a silent to-do list" is a real stage worth spelling out exactly.
 
 ### 3. For each stage, capture the three lines
 At every stage, using `journey-map-template.md`, record:

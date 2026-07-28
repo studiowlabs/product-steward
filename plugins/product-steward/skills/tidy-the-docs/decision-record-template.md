@@ -9,7 +9,7 @@ solved, the option chosen, and the option turned down and why. Keep this; it is 
 worth preserving.]
 
 **What it replaced.** [The prior approach or decision this changed, if any, so the record
-reads as a chain and not a snapshot.]
+reads as a chain across time.]
 
 **Still true?** [Anything about this decision that later work has already started to
 question, so the next reader knows where it may be soft. Omit if it stands unqualified.]

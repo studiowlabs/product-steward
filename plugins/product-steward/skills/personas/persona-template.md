@@ -15,7 +15,7 @@ When [real trigger or moment], [name] wants to [outcome in their words], so they
 
 ## What they need to be able to do
 
-- [Plain capability stated as an outcome, not a feature.]
+- [Plain capability stated as an outcome the person gets.]
 - [...]
 
 ## Where they are new

@@ -31,9 +31,9 @@ Then [how the product handles it gracefully, stated observably]
 ## Acceptance criteria (definition of done)
 
 - [ ] All scenarios pass.
-- [ ] The story delivers its "so that" whole, not half.
+- [ ] The story delivers its "so that" whole.
 - [ ] Accessibility and cognitive-load bar met where it applies: plain language, keyboard reach, clear empty/error states.
-- [ ] Unhappy paths from the edge-cases pass are covered, not just the happy path.
+- [ ] Unhappy paths from the edge-cases pass are covered alongside the happy path.
 
 ## Handoff to designer
 

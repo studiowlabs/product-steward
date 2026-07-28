@@ -1,18 +1,18 @@
 ---
 name: roadmap
-description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when webs needs to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays accurate. Confirm the product read, pillars, and increments first.
+description: Build and keep a living now, next, later roadmap organized around customer outcomes, so the product has a spine and the sequence of work is a decision instead of a habit. Use when the order of work is unclear, when the backlog has become a flat undifferentiated pile, when planning what comes after the current increment, or when you need to see the whole shape of where the product is going. Organizes value increments by customer outcome and confidence, keeps dates as capacity-based forecasts, and writes the roadmap into the product's repo as a document that stays accurate. Confirm the product read, pillars, and increments first.
 ---
 
 # Roadmap
 
-A roadmap is the product's plan for the sequence of customer outcomes it will deliver, held at the altitude of "what changes for the person and roughly when," not "which task on which day." Built well, it lets webs see the whole shape of where a product is going and lets any session pick up the next right piece of work. Built badly, it becomes a dated chart nobody believes, obsolete the day after it is drawn.
+A roadmap is the product's plan for the sequence of customer outcomes it will deliver, held at the altitude of "what changes for the person and roughly when," not "which task on which day." Built well, it lets the product owner see the whole shape of where a product is going and lets any session pick up the next right piece of work. Built badly, it becomes a dated chart nobody believes, obsolete the day after it is drawn.
 
 The roadmap is the product's, organized around its `personas` and `product-pillars`, and written into the **product's own repo**. There is no house roadmap to copy; each product gets its own.
 
 ## The build loop
 
-### 1. Organize by outcome, not by feature
-The rows of a roadmap are customer outcomes and the value increments that produce them, not a list of components. "The customer can see her number move the day she logs work" is a roadmap item. "Build the API" is not; it is a task hiding inside one. Draw each item from `value-increments`, so every row already names the delight it delivers.
+### 1. Organize by outcome
+The rows of a roadmap are customer outcomes and the value increments that produce them. "The customer can see her number move the day she logs work" is a roadmap item. "Build the API" is a task hiding inside one. Draw each item from `value-increments`, so every row already names the delight it delivers.
 
 ### 2. Use now, next, later, and mean it
 Sort the work into three truthful horizons instead of false-precision dates across a year:
@@ -32,7 +32,7 @@ When ordering items, use the precedence from `steward-the-product`: the customer
 - Write the roadmap into the product's `docs/` as a `roadmap.md` the team and future sessions read and update. The repo is the memory.
 - Revisit it when an increment ships or reality shifts. A roadmap that is not updated after a release is already wrong.
 - Dates stay capacity-based forecasts with their assumptions attached, only on "now" items. Never let a roadmap manufacture crunch by committing to dates the far-out work has not earned.
-- Park cut and deferred items in the dated `backlog.md`, newest first, so the roadmap stays about what the product will do, not a graveyard of what it will not.
+- Park cut and deferred items in the dated `backlog.md`, newest first, so the roadmap stays about what the product will do.
 
 ## The relationship to designer
 The roadmap sequences customer outcomes and the increments that deliver them. It does not schedule design work as a separate track; design is how each increment gets crafted once it is "now." When an increment reaches "now," the steward hands it to designer to give it an interface. The roadmap says which outcomes come in what order; designer crafts each one as it arrives.
@@ -44,4 +44,4 @@ The roadmap sequences customer outcomes and the increments that deliver them. It
 - `backlog.md` holds what the roadmap deliberately leaves out.
 
 ## The one rule
-A roadmap is a set of choices about customer outcomes, not a schedule of tasks. If every item is a feature and every item has a hard date, it is a plan that will be wrong by next week. Organize by outcome, be candid about confidence, and keep dates only where the work has earned them.
+A roadmap is a set of choices about customer outcomes. If every item is a feature and every item has a hard date, it is a plan that will be wrong by next week. Organize by outcome, be candid about confidence, and keep dates only where the work has earned them.
