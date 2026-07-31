@@ -38,6 +38,7 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 - **`bdd-stories`**: turn decided work into buildable Given, When, Then user stories with acceptance criteria, each tied to a persona and a journey moment.
 - **`roadmap`**: build and keep a living now, next, later roadmap organized around customer outcomes the team can believe and keep current.
 - **`value-increments`**: slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
+- **`deliver-a-slice`**: take a subsection of the roadmap and drive it end to end into a delivered value increment anchored in a new customer capability, by cutting it into a thin user-journey slice, turning that into BDD stories, and packaging it as one increment. The through-line that makes a body of work end with something the customer can now do, rather than a pile of half-built features.
 - **`edge-cases`**: surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
 - **`tidy-the-docs`**: on first contact with a repo that has an accumulated pile of documentation, read the pile, condense the decisions worth keeping into concise records, prune the spent plans, and reorganize the rest so a human can navigate it. Condenses without losing the reasoning, and trusts git for the full history. The product-docs counterpart to designer's `detect-design-system`.
 
@@ -57,6 +58,7 @@ steward-the-product ─▶ read the product, its customer, and its promise
       │     what do we build?       ─▶ bdd-stories (+ edge-cases to harden)
       │     in what order?          ─▶ roadmap
       │     shipped as what?        ─▶ value-increments (+ capacity-based date)
+      │     one slice, end to end?  ─▶ deliver-a-slice (roadmap ─▶ journey slice ─▶ stories ─▶ increment ─▶ capability)
       │
       │   precedence when product decisions conflict (higher wins):
       │     1. the customer's real experience
@@ -111,6 +113,7 @@ Once installed, just do product work and the skills activate by description, or 
 - `/product-steward:bdd-stories` to turn decided work into buildable stories.
 - `/product-steward:roadmap` to build and keep a living roadmap.
 - `/product-steward:value-increments` to package a release and set a sustainable date.
+- `/product-steward:deliver-a-slice` to drive a roadmap subsection end to end into a delivered capability.
 - `/product-steward:edge-cases` to harden a story before it ships.
 - `/product-steward:tidy-the-docs` to clean up and condense an accumulated pile of documentation.
 

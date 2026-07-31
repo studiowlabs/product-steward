@@ -51,6 +51,7 @@ Based on what the product needs next:
 - **A decided piece of work needs to become buildable** goes to **`bdd-stories`**. Write Given, When, Then stories with acceptance criteria, tied to a persona and a journey moment.
 - **The sequence of work is unclear** goes to **`roadmap`**. Build and keep a living now, next, later roadmap organized around customer outcomes.
 - **A release needs shaping** goes to **`value-increments`**. Slice the work vertically into increments that each deliver something the customer can feel, and set a capacity-based delivery date.
+- **A roadmap subsection needs delivering end to end as a capability** goes to **`deliver-a-slice`**. Cut it into a thin journey slice, turn that into stories, package it as one increment, and close on what the customer can now do.
 - **A story or feature needs hardening** goes to **`edge-cases`**. Surface the unhappy paths, failure modes, and edge conditions before they surface in production.
 
 Most real work touches several. Start with whichever answers the most pressing unknown, and let the others follow.

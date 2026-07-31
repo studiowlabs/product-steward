@@ -1,6 +1,6 @@
 {
   "name": "product-steward",
-  "description": "Foundational product-steward skills: read what a product is and who it serves, build and maintain its personas, pillars, user journeys, and service blueprints, write BDD user stories with acceptance criteria, keep a living roadmap, package work into value increments that each deliver something the customer feels, surface edge cases and unhappy paths early, and set capacity-based, sustainable delivery dates. It owns what/why/for-whom/when and hands how-it-looks-and-feels to designer. No house roadmap, every product gets its own, written into its repo.",
+  "description": "Foundational product-steward skills: read what a product is and who it serves, build and maintain its personas, pillars, user journeys, and service blueprints, write BDD user stories with acceptance criteria, keep a living roadmap, package work into value increments that each deliver something the customer feels, drive a roadmap subsection end to end into a delivered capability by way of journey slices and stories, surface edge cases and unhappy paths early, and set capacity-based, sustainable delivery dates. It owns what/why/for-whom/when and hands how-it-looks-and-feels to designer. No house roadmap, every product gets its own, written into its repo.",
   "version": "0.1.0",
   "author": {
     "name": "Studio W Labs",
