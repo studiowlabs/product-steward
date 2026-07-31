@@ -41,6 +41,7 @@ The refinements pushed to a later slice, so this one stays thin and whole.
 
 - [ ] Every story's scenarios pass.
 - [ ] The accessibility and cognitive-load bar is met.
+- [ ] The `ask-support` read is clean, or each support risk is accepted with a reason.
 - [ ] A real [persona] can walk the path end to end and reach the capability, with no dead end.
 - [ ] The capability sentence above holds true, stated back in the customer's words.
 - [ ] The roadmap subsection is moved to shipped.

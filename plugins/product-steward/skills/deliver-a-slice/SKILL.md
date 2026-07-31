@@ -34,8 +34,11 @@ Draw the `bdd-stories` that make the slice real, each with its persona, its "so 
 ### 4. Package it as one value increment
 Hand the slice and its stories to `value-increments`: name the delight as the specific sentence of what the customer feels, confirm the increment ships whole, and set a capacity-based, sustainable date. The slice and the increment are the same body of work seen two ways, the slice as the customer's path and the increment as the shippable unit. Write the plan of intent (`plan-of-intent-template.md`) before the build, so the developer has a clear aim and the next session can see the whole shape.
 
-### 5. Hand it to the build, and close on the capability
-Hand the increment to the developer with its stories, its acceptance criteria, and its journey context intact, and to designer for the interface. The steward says what ships and why; designer says how it looks and feels. The body of work is done when the stories pass and the capability sentence from step 1 holds true for a real person, not when a task list is empty. Close by stating the delivered capability back in the customer's words, and update the `roadmap` to move the subsection from next to shipped.
+### 5. Gate it with ask-support
+Before it ships, run the `ask-support` gate: view the finished slice as the support agent who will field the tickets, and ask whether it raises escalation and contact volume, because something is not clear, because a person can accidentally break something, or because a person can get their account into a bad state they cannot get out of. Remove, make recoverable, or make clear whatever the gate surfaces, and carry the clarity and recoverability fixes back into the stories as acceptance criteria. A slice that ships confusion or a stuck state raises support cost even when every story passes.
+
+### 6. Hand it to the build, and close on the capability
+Hand the increment to the developer with its stories, its acceptance criteria, and its journey context intact, and to designer for the interface. The steward says what ships and why; designer says how it looks and feels. The body of work is done when the stories pass, the `ask-support` read is clean, and the capability sentence from step 1 holds true for a real person, not when a task list is empty. Close by stating the delivered capability back in the customer's words, and update the `roadmap` to move the subsection from next to shipped.
 
 ## The unit of done is a capability, not a task list
 
@@ -52,6 +55,7 @@ Not every roadmap item needs the full loop. A one-line copy fix or a config chan
 - `bdd-stories` turn the slice into buildable, verifiable behaviors.
 - `edge-cases` supply the unhappy paths the stories have to hold.
 - `value-increments` package the slice into a shippable unit with a sustainable date.
+- `ask-support` gates the slice before ship, viewing it as the support agent who fields the tickets, so it does not raise escalation volume.
 - `steward-the-product` sets the precedence order when subsections compete for next, and the voice every artifact follows.
 - designer takes the decided slice and crafts its interface.
 

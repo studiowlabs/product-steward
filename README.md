@@ -40,6 +40,7 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 - **`value-increments`**: slice work vertically into increments that each deliver something the customer can feel, name the delight before the tasks, and set a capacity-based, sustainable delivery date.
 - **`deliver-a-slice`**: take a subsection of the roadmap and drive it end to end into a delivered value increment anchored in a new customer capability, by cutting it into a thin user-journey slice, turning that into BDD stories, and packaging it as one increment. The through-line that makes a body of work end with something the customer can now do, rather than a pile of half-built features.
 - **`edge-cases`**: surface the unhappy paths, failure modes, and edge conditions for a story or feature before they surface in production.
+- **`ask-support`**: view finished work through the eyes of the support agent who fields the tickets, and ask whether it raises escalation and contact volume, because something is not clear, someone can accidentally break something, or a person can get their account into a bad state. Removes, makes recoverable, or makes clear the support cost before customers pay it.
 - **`tidy-the-docs`**: on first contact with a repo that has an accumulated pile of documentation, read the pile, condense the decisions worth keeping into concise records, prune the spent plans, and reorganize the rest so a human can navigate it. Condenses without losing the reasoning, and trusts git for the full history. The product-docs counterpart to designer's `detect-design-system`.
 
 > **product-steward has no roadmap of its own.** You point it at a product, say a repo called `tide`, and its job is to read `tide`, help shape `tide`'s product decisions, and write the personas, stories, and roadmap into **`tide`'s repository**. Two products the steward touches should each end up with their own product thinking.
@@ -59,6 +60,7 @@ steward-the-product ─▶ read the product, its customer, and its promise
       │     in what order?          ─▶ roadmap
       │     shipped as what?        ─▶ value-increments (+ capacity-based date)
       │     one slice, end to end?  ─▶ deliver-a-slice (roadmap ─▶ journey slice ─▶ stories ─▶ increment ─▶ capability)
+      │     safe to ship?           ─▶ ask-support (clear? can they break it? can they get stuck?)
       │
       │   precedence when product decisions conflict (higher wins):
       │     1. the customer's real experience
@@ -115,6 +117,7 @@ Once installed, just do product work and the skills activate by description, or 
 - `/product-steward:value-increments` to package a release and set a sustainable date.
 - `/product-steward:deliver-a-slice` to drive a roadmap subsection end to end into a delivered capability.
 - `/product-steward:edge-cases` to harden a story before it ships.
+- `/product-steward:ask-support` to check finished work for the support cost before it ships.
 - `/product-steward:tidy-the-docs` to clean up and condense an accumulated pile of documentation.
 
 A typical run: add your product repo alongside `product-steward` and `designer` in a Claude Code session, let the steward read what's there and route to what the product needs next, and let it write the artifacts into your product's `docs/`, ready for designer to craft.
