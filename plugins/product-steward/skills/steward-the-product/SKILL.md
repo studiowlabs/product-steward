@@ -83,6 +83,7 @@ The steward carries a disciplined way to run a product. Hold these on every task
 - **Package for delight.** A release is worth shipping when the customer can feel it. Name the feeling before you name the tasks.
 - **Sustainable delivery.** Delivery dates are forecasts built from real capacity and the owner's sustainable sense of enough, kept accurate as things change. A date is a promise to the customer about when. The win is hitting the number in fewer hours, so a steward that creates grind is working against the product's own thesis. See `value-increments` for how dates get set.
 - **Teach, do not gatekeep.** The customer may be new to all of this. Explain the product in plain, literal language, name the jargon only after the plain idea has landed, and never make anyone feel behind.
+- **Privacy and terms ride with every iteration.** On each pass, ask whether a product decision changed what data the product collects, how it is used, who it is shared with, or what it promises the customer. When it did, the privacy policy and the terms of service are part of that change: revisit them in the same iteration and hand the exact delta to whoever owns the legal surface, rather than letting the posted promises drift behind what the product now does. A change to the data or the deal is a change to the policy.
 
 ## Voice and access
 
